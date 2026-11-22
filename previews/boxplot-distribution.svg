@@ -1,0 +1,43 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 450">
+<rect width="800" height="450" x="0" y="0" fill="none"></rect>
+<path d="M69.4 390.5L736 390.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 340.5L736 340.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 290.5L736 290.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 240.5L736 240.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 190.5L736 190.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 140.5L736 140.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 90.5L736 90.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 40.5L736 40.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr2-cls-4"></path>
+<path d="M69.4 390.5L736 390.5" fill="none" pointer-events="visible" stroke="#6E7079" stroke-linecap="round" class="zr2-cls-4"></path>
+<path d="M69.5 390L69.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr2-cls-4"></path>
+<path d="M291.5 390L291.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr2-cls-4"></path>
+<path d="M514.5 390L514.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr2-cls-4"></path>
+<path d="M736.5 390L736.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr2-cls-4"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 390)" fill="#6E7079">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 340)" fill="#6E7079">5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 290)" fill="#6E7079">10</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 240)" fill="#6E7079">15</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 190)" fill="#6E7079">20</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 140)" fill="#6E7079">25</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 90)" fill="#6E7079">30</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(61.44 40)" fill="#6E7079">35</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(180.5333 398)" fill="#6E7079">A그룹</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(402.72 398)" fill="#6E7079">B그룹</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(624.9067 398)" fill="#6E7079">C그룹</text>
+<path d="M155.5 320L205.5 320L205.5 240L155.5 240ZM180.5 360L180.5 320M180.5 110L180.5 240M155.5 360L205.5 360M155.5 110L205.5 110M155.5 290L205.5 290" fill="#fff" stroke="#1F3A5F" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr2-cls-5"></path>
+<path d="M377.7 300L427.7 300L427.7 210L377.7 210ZM402.7 340L402.7 300M402.7 40L402.7 210M377.7 340L427.7 340M377.7 40L427.7 40M377.7 270L427.7 270" fill="#fff" stroke="#1F3A5F" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr2-cls-5"></path>
+<path d="M599.9 350L649.9 350L649.9 300L599.9 300ZM624.9 370L624.9 350M624.9 250L624.9 300M599.9 370L649.9 370M599.9 250L649.9 250M599.9 330L649.9 330" fill="#fff" stroke="#1F3A5F" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr2-cls-5"></path>
+<style ><![CDATA[
+.zr2-cls-4:hover {
+pointer-events:none;
+}
+.zr2-cls-5:hover {
+cursor:pointer;
+fill:rgba(255,255,255,1);
+stroke-width:2;
+}
+
+]]>
+
+</style>
+</svg>

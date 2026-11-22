@@ -23,6 +23,10 @@ for (const f of files) {
   if (!new RegExp(P.id.pattern).test(c.id || '')) err(f, 'id 형식 오류');
   if (ids.has(c.id)) err(f, 'id 중복'); ids.add(c.id);
   if (!P.relation.enum.includes(c.relation)) err(f, `relation 값 오류: ${c.relation}`);
+  if (!P.kind.enum.includes(c.kind)) err(f, `kind 값 오류: ${c.kind}`);
+  if (c.kind === 'chart' && !String(c.template).startsWith('templates/echarts/')) err(f, 'chart 카드는 templates/echarts/ 템플릿 사용');
+  if (c.kind === 'layout' && !String(c.template).startsWith('templates/layouts/')) err(f, 'layout 카드는 templates/layouts/ 템플릿 사용');
+  if (c.source?.kind === 'pattern' && !(Array.isArray(c.inspiredBy) && c.inspiredBy.length)) err(f, 'pattern 카드는 inspiredBy 링크 필수');
   if (!P.pptxMappable.enum.includes(c.pptxMappable)) err(f, 'pptxMappable 값 오류');
   for (const m of c.motion || []) if (!P.motion.items.enum.includes(m)) err(f, `motion 값 오류: ${m}`);
   for (const a of c.audience || []) if (!P.audience.items.enum.includes(a)) err(f, `audience 값 오류: ${a}`);
@@ -34,7 +38,8 @@ for (const f of files) {
   if (statSync(tp).size > 64 * 1024) err(f, '템플릿이 64KB 초과');
   const raw = readFileSync(tp, 'utf8');
   try { JSON.parse(raw); } catch { err(f, '템플릿 JSON 파싱 실패'); }
-  if (!raw.includes('"$DATA"')) err(f, '템플릿에 $DATA 바인딩 자리가 없음 (값을 템플릿에 직접 넣지 않음)');
+  if (c.kind === 'chart' && !raw.includes('"$DATA"')) err(f, '템플릿에 $DATA 바인딩 자리가 없음 (값을 템플릿에 직접 넣지 않음)');
+  if (c.kind === 'layout') { try { const L = JSON.parse(raw); if (!Array.isArray(L.slots) || !L.slots.length) err(f, 'layout 템플릿에 slots 없음'); for (const sl of L.slots || []) if (!sl.id || !sl.role || !sl.box) err(f, `slot 정의 누락: ${JSON.stringify(sl).slice(0, 60)}`); } catch {} }
   if (/\d{3,}-\d{2,}-\d{4,}/.test(raw)) err(f, '계좌번호로 보이는 숫자 패턴 포함');
   if (c.preview && !existsSync(join(root, c.preview))) err(f, `미리보기 없음: ${c.preview}`);
 }

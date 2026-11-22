@@ -1,0 +1,48 @@
+{
+  "id": "combo-bar-line",
+  "kind": "chart",
+  "name": "Bar + line (dual axis)",
+  "nameKo": "금액 막대 + 비율 선(이중 축)",
+  "relation": "change-over-time",
+  "financeUse": [
+    "매출·이익률 추이",
+    "차입금 잔액·평균 금리"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 2,
+      "max": 3
+    },
+    "timeSeries": true,
+    "categories": {
+      "min": 3,
+      "max": 24
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 10,
+    "allowNegative": true,
+    "minPoints": 3
+  },
+  "motion": [
+    "chart.draw",
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/echarts/combo-bar-line.json",
+  "preview": "previews/combo-bar-line.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=mix-line-bar",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'mix-line-bar' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

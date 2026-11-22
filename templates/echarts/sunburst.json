@@ -1,0 +1,24 @@
+{
+  "series": [
+    {
+      "type": "sunburst",
+      "radius": [
+        0,
+        "90%"
+      ],
+      "data": "$DATA",
+      "label": {
+        "rotate": "radial"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "path",
+      "amount"
+    ],
+    "format": "tree"
+  }
+}

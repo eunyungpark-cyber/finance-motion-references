@@ -1,0 +1,25 @@
+{
+  "series": [
+    {
+      "type": "treemap",
+      "roam": false,
+      "nodeClick": false,
+      "breadcrumb": {
+        "show": false
+      },
+      "data": "$DATA",
+      "label": {
+        "formatter": "{b}\n{c}"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "path",
+      "amount"
+    ],
+    "format": "tree"
+  }
+}

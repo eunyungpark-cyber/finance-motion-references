@@ -1,0 +1,44 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "legend": {
+    "top": 0
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value",
+    "max": 100,
+    "axisLabel": {
+      "formatter": "{value}%"
+    }
+  },
+  "series": {
+    "$seriesPerMeasure": {
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true,
+        "formatter": "$LABEL_PERCENT"
+      }
+    }
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "<measure...>"
+    ],
+    "derive": "percentOfRow"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "boxplot-distribution",
+  "kind": "chart",
+  "name": "Box plot",
+  "nameKo": "박스플롯(분포 비교)",
+  "relation": "distribution",
+  "financeUse": [
+    "거래처별 결제 소요일 분포",
+    "월별 일잔액 분포"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 5,
+      "max": 5
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 2,
+      "max": 12
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 12,
+    "allowNegative": true,
+    "minPoints": 2
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "image",
+  "audience": [
+    "report"
+  ],
+  "template": "templates/echarts/boxplot-distribution.json",
+  "preview": "previews/boxplot-distribution.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=boxplot-multi",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'boxplot-multi' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

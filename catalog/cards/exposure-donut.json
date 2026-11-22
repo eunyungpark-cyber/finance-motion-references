@@ -1,5 +1,6 @@
 {
   "id": "exposure-donut",
+  "kind": "chart",
   "name": "Exposure donut",
   "nameKo": "노출 비중(도넛)",
   "relation": "part-to-whole",
@@ -34,7 +35,7 @@
     "external"
   ],
   "template": "templates/echarts/exposure-donut.json",
-  "preview": null,
+  "preview": "previews/exposure-donut.svg",
   "source": {
     "kind": "original"
   },

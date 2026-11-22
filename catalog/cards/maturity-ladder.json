@@ -1,5 +1,6 @@
 {
   "id": "maturity-ladder",
+  "kind": "chart",
   "name": "Maturity ladder",
   "nameKo": "차입금 만기 사다리",
   "relation": "magnitude",
@@ -35,7 +36,7 @@
     "external"
   ],
   "template": "templates/echarts/maturity-ladder.json",
-  "preview": null,
+  "preview": "previews/maturity-ladder.svg",
   "source": {
     "kind": "original"
   },

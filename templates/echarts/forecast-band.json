@@ -1,0 +1,70 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "type": "category",
+    "boundaryGap": false
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "type": "line",
+      "encode": {
+        "x": "period",
+        "y": "low"
+      },
+      "lineStyle": {
+        "opacity": 0
+      },
+      "stack": "band",
+      "symbol": "none"
+    },
+    {
+      "type": "line",
+      "encode": {
+        "x": "period",
+        "y": "bandWidth"
+      },
+      "lineStyle": {
+        "opacity": 0
+      },
+      "areaStyle": {
+        "opacity": 0.18
+      },
+      "stack": "band",
+      "symbol": "none"
+    },
+    {
+      "type": "line",
+      "encode": {
+        "x": "period",
+        "y": "base"
+      },
+      "symbolSize": 5
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "low",
+      "base",
+      "high"
+    ],
+    "derive": "band"
+  }
+}

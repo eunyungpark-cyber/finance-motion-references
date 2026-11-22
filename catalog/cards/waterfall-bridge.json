@@ -1,5 +1,6 @@
 {
   "id": "waterfall-bridge",
+  "kind": "chart",
   "name": "Bridge (waterfall)",
   "nameKo": "증감 브리지(워터폴)",
   "relation": "deviation",
@@ -35,7 +36,7 @@
     "external"
   ],
   "template": "templates/echarts/waterfall-bridge.json",
-  "preview": null,
+  "preview": "previews/waterfall-bridge.svg",
   "source": {
     "kind": "original"
   },

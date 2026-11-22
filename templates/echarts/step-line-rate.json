@@ -1,0 +1,41 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "legend": {
+    "top": 0
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value",
+    "axisLabel": {
+      "formatter": "{value}%"
+    }
+  },
+  "series": {
+    "$seriesPerMeasure": {
+      "type": "line",
+      "step": "end"
+    }
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "date",
+      "<rate...>"
+    ]
+  }
+}

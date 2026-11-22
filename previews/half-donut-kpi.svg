@@ -1,0 +1,27 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 450">
+<rect width="800" height="450" x="0" y="0" fill="none"></rect>
+<polyline points="298.8 166.1 290.4 153.7 275.4 153.7" fill="none" pointer-events="visible" stroke="#1F3A5F" class="zr16-cls-157"></polyline>
+<polyline points="548.9 213.8 561.3 205.4 576.3 205.4" fill="none" pointer-events="visible" stroke="#3E7CB1" class="zr16-cls-157"></polyline>
+<path d="M220 315A180 180 0 0 1 466.3 147.6L445.6 199.9A123.8 123.8 0 0 0 276.3 315Z" fill="#1F3A5F" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr16-cls-158"></path>
+<path d="M466.3 147.6A180 180 0 0 1 580 315L523.8 315A123.8 123.8 0 0 0 445.6 199.9Z" fill="#3E7CB1" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr16-cls-159"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="-6" transform="translate(270.3937 153.7193)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">고정금리</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(270.3937 153.7193)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">62%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="-6" transform="translate(581.2807 205.3937)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">변동금리</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(581.2807 205.3937)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">38%</text>
+<style ><![CDATA[
+.zr16-cls-157:hover {
+cursor:pointer;
+}
+.zr16-cls-158:hover {
+cursor:pointer;
+fill:rgba(34,63,104,1);
+}
+.zr16-cls-159:hover {
+cursor:pointer;
+fill:rgba(68,136,194,1);
+}
+
+]]>
+
+</style>
+</svg>

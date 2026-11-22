@@ -1,5 +1,6 @@
 {
   "id": "trend-line-target",
+  "kind": "chart",
   "name": "Trend vs target",
   "nameKo": "추이 + 목표선",
   "relation": "change-over-time",
@@ -35,7 +36,7 @@
     "external"
   ],
   "template": "templates/echarts/trend-line-target.json",
-  "preview": null,
+  "preview": "previews/trend-line-target.svg",
   "source": {
     "kind": "original"
   },

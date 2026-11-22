@@ -1,0 +1,44 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 450">
+<rect width="800" height="450" x="0" y="0" fill="none"></rect>
+<path d="M140.5 40L140.5 390" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr1-cls-2"></path>
+<path d="M259.5 40L259.5 390" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr1-cls-2"></path>
+<path d="M378.5 40L378.5 390" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr1-cls-2"></path>
+<path d="M497.5 40L497.5 390" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr1-cls-2"></path>
+<path d="M617.5 40L617.5 390" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr1-cls-2"></path>
+<path d="M736.5 40L736.5 390" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr1-cls-2"></path>
+<path d="M140.5 40L140.5 390" fill="none" pointer-events="visible" stroke="#6E7079" stroke-linecap="round" class="zr1-cls-2"></path>
+<path d="M140 40.5L135 40.5" fill="none" pointer-events="visible" stroke="#6E7079" class="zr1-cls-2"></path>
+<path d="M140 156.5L135 156.5" fill="none" pointer-events="visible" stroke="#6E7079" class="zr1-cls-2"></path>
+<path d="M140 273.5L135 273.5" fill="none" pointer-events="visible" stroke="#6E7079" class="zr1-cls-2"></path>
+<path d="M140 390.5L135 390.5" fill="none" pointer-events="visible" stroke="#6E7079" class="zr1-cls-2"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" transform="translate(132 98.3333)" fill="#6E7079">A은행 일반대출</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" transform="translate(132 215)" fill="#6E7079">B은행 한도대출</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" transform="translate(132 331.6667)" fill="#6E7079">C은행 무역금융</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(140 398)" fill="#6E7079">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(259.2 398)" fill="#6E7079">100</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(378.4 398)" fill="#6E7079">200</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(497.6 398)" fill="#6E7079">300</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(616.8 398)" fill="#6E7079">400</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(736 398)" fill="#6E7079">500</text>
+<path d="M140 55.7l596 0l0 85.2l-596 0Z" fill="#1F3A5F" fill-opacity="0.15" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr1-cls-2"></path>
+<path d="M140 172.4l357.6 0l0 85.2l-357.6 0Z" fill="#1F3A5F" fill-opacity="0.15" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr1-cls-2"></path>
+<path d="M140 289.1l238.4 0l0 85.2l-238.4 0Z" fill="#1F3A5F" fill-opacity="0.15" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr1-cls-2"></path>
+<path d="M140 55.7l453 0l0 85.2l-453 0Z" fill="#3E7CB1" ecmeta_series_index="1" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr1-cls-3"></path>
+<path d="M140 172.4l143 0l0 85.2l-143 0Z" fill="#3E7CB1" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr1-cls-3"></path>
+<path d="M140 289.1l202.6 0l0 85.2l-202.6 0Z" fill="#3E7CB1" ecmeta_series_index="1" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr1-cls-3"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(597.96 98.3333)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">380</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(288.04 215)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">120</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(347.64 331.6667)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">170</text>
+<style ><![CDATA[
+.zr1-cls-2:hover {
+pointer-events:none;
+}
+.zr1-cls-3:hover {
+cursor:pointer;
+fill:rgba(68,136,194,1);
+}
+
+]]>
+
+</style>
+</svg>

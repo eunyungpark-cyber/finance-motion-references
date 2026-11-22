@@ -1,0 +1,48 @@
+{
+  "id": "hbar-stacked",
+  "kind": "chart",
+  "name": "Horizontal stacked bar",
+  "nameKo": "가로 누적 막대(항목별 구성)",
+  "relation": "part-to-whole",
+  "financeUse": [
+    "은행별 예금·대출 구성",
+    "거래처별 지급 유형 구성"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 2,
+      "max": 5
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 2,
+      "max": 12
+    }
+  },
+  "constraints": {
+    "labelMaxChars": null,
+    "allowNegative": false,
+    "minPoints": 2
+  },
+  "motion": [
+    "reveal.sequence",
+    "chart.draw"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/echarts/hbar-stacked.json",
+  "preview": "previews/hbar-stacked.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=bar-y-category-stack",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'bar-y-category-stack' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

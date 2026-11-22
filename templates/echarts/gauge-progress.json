@@ -1,0 +1,46 @@
+{
+  "series": [
+    {
+      "type": "gauge",
+      "startAngle": 200,
+      "endAngle": -20,
+      "min": 0,
+      "max": "$PARAM:MAX",
+      "progress": {
+        "show": true,
+        "width": 16
+      },
+      "axisLine": {
+        "lineStyle": {
+          "width": 16
+        }
+      },
+      "pointer": {
+        "show": false
+      },
+      "axisTick": {
+        "show": false
+      },
+      "splitLine": {
+        "show": false
+      },
+      "axisLabel": {
+        "show": false
+      },
+      "detail": {
+        "valueAnimation": true,
+        "formatter": "$PARAM:FORMAT"
+      },
+      "data": "$DATA"
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "value"
+    ],
+    "format": "nameValue"
+  }
+}

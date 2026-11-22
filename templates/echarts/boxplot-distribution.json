@@ -1,0 +1,47 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value",
+    "scale": true
+  },
+  "series": [
+    {
+      "type": "boxplot",
+      "encode": {
+        "x": "label",
+        "y": [
+          "min",
+          "q1",
+          "median",
+          "q3",
+          "max"
+        ]
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "min",
+      "q1",
+      "median",
+      "q3",
+      "max"
+    ],
+    "note": "사분위는 원본 값만 사용"
+  }
+}

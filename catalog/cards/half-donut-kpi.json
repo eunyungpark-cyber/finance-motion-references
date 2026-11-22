@@ -1,0 +1,47 @@
+{
+  "id": "half-donut-kpi",
+  "kind": "chart",
+  "name": "Half donut KPI",
+  "nameKo": "반원 도넛(비중 KPI)",
+  "relation": "part-to-whole",
+  "financeUse": [
+    "원화·외화 비중",
+    "고정·변동 금리 비중"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 2,
+      "max": 4
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 10,
+    "allowNegative": false,
+    "minPoints": 2
+  },
+  "motion": [
+    "chart.draw",
+    "number.countUp"
+  ],
+  "pptxMappable": "approx",
+  "audience": [
+    "public",
+    "external"
+  ],
+  "template": "templates/echarts/half-donut-kpi.json",
+  "preview": "previews/half-donut-kpi.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=pie-half-donut",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'pie-half-donut' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

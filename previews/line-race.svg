@@ -1,0 +1,83 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 450">
+<rect width="800" height="450" x="0" y="0" fill="none"></rect>
+<path d="M76.2 390.5L736 390.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 340.5L736 340.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 290.5L736 290.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 240.5L736 240.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 190.5L736 190.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 140.5L736 140.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 90.5L736 90.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 40.5L736 40.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr20-cls-184"></path>
+<path d="M76.2 390.5L736 390.5" fill="none" pointer-events="visible" stroke="#6E7079" stroke-linecap="round" class="zr20-cls-184"></path>
+<path d="M76.5 390L76.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M131.5 390L131.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M186.5 390L186.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M241.5 390L241.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M296.5 390L296.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M351.5 390L351.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M406.5 390L406.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M461.5 390L461.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M516.5 390L516.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M571.5 390L571.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M626.5 390L626.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M681.5 390L681.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<path d="M736.5 390L736.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr20-cls-184"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 390)" fill="#6E7079">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 340)" fill="#6E7079">100</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 290)" fill="#6E7079">200</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 240)" fill="#6E7079">300</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 190)" fill="#6E7079">400</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 140)" fill="#6E7079">500</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 90)" fill="#6E7079">600</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 40)" fill="#6E7079">700</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(103.6533 398)" fill="#6E7079">1월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(158.64 398)" fill="#6E7079">2월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(213.6267 398)" fill="#6E7079">3월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(268.6133 398)" fill="#6E7079">4월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(323.6 398)" fill="#6E7079">5월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(378.5867 398)" fill="#6E7079">6월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(433.5733 398)" fill="#6E7079">7월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(488.56 398)" fill="#6E7079">8월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(543.5467 398)" fill="#6E7079">9월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(598.5333 398)" fill="#6E7079">10월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(653.52 398)" fill="#6E7079">11월</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(708.5067 398)" fill="#6E7079">12월</text>
+<g clip-path="url(#zr20-c0)">
+<path d="M103.7 140L158.6 134L213.6 128L268.6 122L323.6 116L378.6 110L433.6 104L488.6 98L543.5 92L598.5 86L653.5 80L708.5 74" fill="none" pointer-events="visible" stroke="#1F3A5F" stroke-width="2" stroke-linejoin="bevel" class="zr20-cls-186"></path>
+</g>
+<g clip-path="url(#zr20-c1)">
+<path d="M103.7 240L158.6 231L213.6 222L268.6 213L323.6 204L378.6 195L433.6 186L488.6 177L543.5 168L598.5 159L653.5 150L708.5 141" fill="none" pointer-events="visible" stroke="#3E7CB1" stroke-width="2" stroke-linejoin="bevel" class="zr20-cls-186"></path>
+</g>
+<g clip-path="url(#zr20-c2)">
+<path d="M103.7 330L158.6 328L213.6 326L268.6 324L323.6 322L378.6 320L433.6 318L488.6 316L543.5 314L598.5 312L653.5 310L708.5 308" fill="none" pointer-events="visible" stroke="#81A4CD" stroke-width="2" stroke-linejoin="bevel" class="zr20-cls-186"></path>
+</g>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" transform="translate(716.5067 74)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">KRW: 12월,632</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" transform="translate(716.5067 141)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">USD: 12월,498</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" transform="translate(716.5067 308)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">JPY: 12월,164</text>
+<defs >
+<clipPath id="zr20-c0">
+<path d="M75 39l663 0l0 352l-663 0Z" fill="#000" class="zr20-cls-185"></path>
+</clipPath>
+<clipPath id="zr20-c1">
+<path d="M75 39l663 0l0 352l-663 0Z" fill="#000" class="zr20-cls-185"></path>
+</clipPath>
+<clipPath id="zr20-c2">
+<path d="M75 39l663 0l0 352l-663 0Z" fill="#000" class="zr20-cls-185"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr20-cls-184:hover {
+pointer-events:none;
+}
+.zr20-cls-185:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr20-cls-186:hover {
+cursor:pointer;
+}
+
+]]>
+
+</style>
+</svg>

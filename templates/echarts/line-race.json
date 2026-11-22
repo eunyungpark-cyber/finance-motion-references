@@ -1,0 +1,45 @@
+{
+  "dataset": [
+    {
+      "source": "$DATA"
+    }
+  ],
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "type": "category",
+    "nameLocation": "middle"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": {
+    "$seriesPerEntity": {
+      "type": "line",
+      "showSymbol": false,
+      "endLabel": {
+        "show": true,
+        "formatter": "{a}: {c}"
+      },
+      "labelLayout": {
+        "moveOverlap": "shiftY"
+      }
+    }
+  },
+  "animationDuration": 10000,
+  "_binding": {
+    "columns": [
+      "period",
+      "entity",
+      "value"
+    ]
+  }
+}

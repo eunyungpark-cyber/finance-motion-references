@@ -1,0 +1,61 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "legend": {
+    "top": 0
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": [
+    {
+      "type": "value",
+      "name": "$PARAM:UNIT_LEFT"
+    },
+    {
+      "type": "value",
+      "name": "$PARAM:UNIT_RIGHT",
+      "splitLine": {
+        "show": false
+      }
+    }
+  ],
+  "series": [
+    {
+      "type": "bar",
+      "encode": {
+        "x": "period",
+        "y": "amount"
+      }
+    },
+    {
+      "type": "line",
+      "yAxisIndex": 1,
+      "encode": {
+        "x": "period",
+        "y": "rate"
+      },
+      "symbolSize": 6
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "amount",
+      "rate"
+    ]
+  }
+}

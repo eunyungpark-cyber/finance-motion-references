@@ -1,0 +1,25 @@
+{
+  "series": [
+    {
+      "type": "funnel",
+      "sort": "none",
+      "gap": 2,
+      "left": "10%",
+      "width": "80%",
+      "label": {
+        "position": "inside",
+        "formatter": "{b}\n{c}"
+      },
+      "data": "$DATA"
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "value"
+    ],
+    "format": "nameValue"
+  }
+}

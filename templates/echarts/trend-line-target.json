@@ -31,10 +31,14 @@
         "symbol": "none",
         "data": [
           {
-            "yAxis": "$TARGET",
+            "yAxis": "$PARAM:TARGET",
             "name": "목표"
           }
-        ]
+        ],
+        "label": {
+          "position": "insideEndTop",
+          "formatter": "{b} {c}"
+        }
       }
     }
   ],

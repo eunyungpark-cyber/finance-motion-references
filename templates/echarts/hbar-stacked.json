@@ -1,0 +1,45 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "legend": {
+    "top": 0
+  },
+  "xAxis": {
+    "type": "value"
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "axisLabel": {
+      "overflow": "break",
+      "width": 200
+    }
+  },
+  "series": {
+    "$seriesPerMeasure": {
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true,
+        "position": "inside"
+      },
+      "orient": "h"
+    }
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "<measure...>"
+    ]
+  }
+}

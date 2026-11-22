@@ -1,0 +1,30 @@
+{
+  "series": [
+    {
+      "type": "sankey",
+      "layout": "none",
+      "emphasis": {
+        "focus": "adjacency"
+      },
+      "data": "$DERIVE:nodesFromLinks",
+      "links": "$DATA",
+      "label": {
+        "formatter": "{b}"
+      },
+      "lineStyle": {
+        "color": "gradient",
+        "opacity": 0.45
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "source",
+      "target",
+      "value"
+    ],
+    "format": "links"
+  }
+}

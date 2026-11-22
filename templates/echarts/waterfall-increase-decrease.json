@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "xAxis": {
+    "type": "category",
+    "axisLabel": {
+      "interval": 0,
+      "overflow": "break",
+      "width": 90
+    }
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "type": "bar",
+      "stack": "wf",
+      "encode": {
+        "x": "label",
+        "y": "base"
+      },
+      "itemStyle": {
+        "color": "transparent"
+      },
+      "silent": true,
+      "tooltip": {
+        "show": false
+      }
+    },
+    {
+      "type": "bar",
+      "stack": "wf",
+      "name": "증가",
+      "encode": {
+        "x": "label",
+        "y": "increase",
+        "tooltip": "value"
+      },
+      "label": {
+        "show": true,
+        "position": "top",
+        "formatter": "$LABEL_ORIGINAL"
+      },
+      "itemStyle": {
+        "color": "#2E6F9E"
+      }
+    },
+    {
+      "type": "bar",
+      "stack": "wf",
+      "name": "감소",
+      "encode": {
+        "x": "label",
+        "y": "decrease",
+        "tooltip": "value"
+      },
+      "label": {
+        "show": true,
+        "position": "bottom",
+        "formatter": "$LABEL_ORIGINAL"
+      },
+      "itemStyle": {
+        "color": "#C8553D"
+      }
+    },
+    {
+      "type": "bar",
+      "stack": "wf",
+      "name": "합계",
+      "encode": {
+        "x": "label",
+        "y": "total",
+        "tooltip": "value"
+      },
+      "label": {
+        "show": true,
+        "position": "top",
+        "formatter": "$LABEL_ORIGINAL"
+      },
+      "itemStyle": {
+        "color": "#7A8B99"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "value",
+      "kind"
+    ],
+    "derive": "waterfall",
+    "note": "kind=total(시작·종료·소계) | delta. base·increase·decrease·total은 표시용으로 바인더가 계산, 라벨·툴팁은 원본 value 그대로"
+  },
+  "legend": {
+    "top": 0,
+    "data": [
+      "증가",
+      "감소",
+      "합계"
+    ]
+  }
+}

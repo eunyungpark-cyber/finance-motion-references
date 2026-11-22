@@ -1,0 +1,43 @@
+{
+  "id": "gauge-progress",
+  "kind": "chart",
+  "name": "Progress gauge",
+  "nameKo": "진행 게이지(한도 소진율)",
+  "relation": "magnitude",
+  "financeUse": [
+    "여신 한도 소진율",
+    "연간 목표 달성률"
+  ],
+  "dataShape": {
+    "dimensions": 0,
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": 12,
+    "allowNegative": false,
+    "minPoints": 1
+  },
+  "motion": [
+    "number.countUp",
+    "chart.draw"
+  ],
+  "pptxMappable": "approx",
+  "audience": [
+    "report",
+    "public"
+  ],
+  "template": "templates/echarts/gauge-progress.json",
+  "preview": "previews/gauge-progress.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=gauge-progress",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'gauge-progress' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

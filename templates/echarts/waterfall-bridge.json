@@ -4,9 +4,16 @@
   },
   "grid": {
     "left": 48,
-    "right": 24,
-    "top": 32,
-    "bottom": 48
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
   },
   "xAxis": {
     "type": "category",
@@ -24,24 +31,69 @@
       "type": "bar",
       "stack": "wf",
       "encode": {
-        "x": 0,
+        "x": "label",
         "y": "base"
       },
       "itemStyle": {
         "color": "transparent"
       },
-      "silent": true
+      "silent": true,
+      "tooltip": {
+        "show": false
+      }
     },
     {
       "type": "bar",
       "stack": "wf",
+      "name": "증가",
       "encode": {
-        "x": 0,
-        "y": "delta"
+        "x": "label",
+        "y": "increase",
+        "tooltip": "value"
       },
       "label": {
         "show": true,
-        "position": "top"
+        "position": "top",
+        "formatter": "$LABEL_ORIGINAL"
+      },
+      "itemStyle": {
+        "color": "#2E6F9E"
+      }
+    },
+    {
+      "type": "bar",
+      "stack": "wf",
+      "name": "감소",
+      "encode": {
+        "x": "label",
+        "y": "decrease",
+        "tooltip": "value"
+      },
+      "label": {
+        "show": true,
+        "position": "bottom",
+        "formatter": "$LABEL_ORIGINAL"
+      },
+      "itemStyle": {
+        "color": "#C8553D"
+      }
+    },
+    {
+      "type": "bar",
+      "stack": "wf",
+      "name": "합계",
+      "encode": {
+        "x": "label",
+        "y": "total",
+        "tooltip": "value"
+      },
+      "label": {
+        "show": true,
+        "position": "top",
+        "formatter": "$LABEL_ORIGINAL"
+      },
+      "itemStyle": {
+        "color": "#7A8B99"
       }
     }
   ],
@@ -50,10 +102,13 @@
   "_binding": {
     "columns": [
       "label",
-      "base",
-      "delta",
-      "sign"
+      "value",
+      "kind"
     ],
-    "note": "base·delta는 코드가 원본 값에서 계산 없이 배치: 시작·종료는 base=0, 증감은 직전 누계를 base로. 누계 계산은 코드(결정론)만 수행"
+    "derive": "waterfall",
+    "note": "kind=total(시작·종료·소계) | delta. base·increase·decrease·total은 표시용으로 바인더가 계산, 라벨·툴팁은 원본 value 그대로"
+  },
+  "legend": {
+    "show": false
   }
 }

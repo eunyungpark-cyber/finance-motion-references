@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "legend": {
+    "top": 0
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": {
+    "$seriesPerMeasure": {
+      "type": "bar",
+      "label": {
+        "show": true,
+        "position": "top"
+      }
+    }
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "<period...>"
+    ]
+  }
+}

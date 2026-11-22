@@ -1,0 +1,46 @@
+{
+  "id": "stacked-area",
+  "kind": "chart",
+  "name": "Stacked area",
+  "nameKo": "누적 영역(구성 추이)",
+  "relation": "change-over-time",
+  "financeUse": [
+    "월별 예치금 구성 추이",
+    "통화별 잔액 누적"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 2,
+      "max": 6
+    },
+    "timeSeries": true,
+    "categories": {
+      "min": 6,
+      "max": 60
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 10,
+    "allowNegative": false,
+    "minPoints": 6
+  },
+  "motion": [
+    "chart.draw"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public"
+  ],
+  "template": "templates/echarts/stacked-area.json",
+  "preview": "previews/stacked-area.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=area-stack",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'area-stack' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

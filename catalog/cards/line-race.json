@@ -1,0 +1,44 @@
+{
+  "id": "line-race",
+  "kind": "chart",
+  "name": "Line race",
+  "nameKo": "선 경쟁(시간 진행 애니메이션)",
+  "relation": "change-over-time",
+  "financeUse": [
+    "통화별 잔액 추이(공유용 영상)"
+  ],
+  "dataShape": {
+    "dimensions": 2,
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "timeSeries": true,
+    "categories": {
+      "min": 6,
+      "max": 120
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 12,
+    "allowNegative": true,
+    "minPoints": 6
+  },
+  "motion": [
+    "chart.draw"
+  ],
+  "pptxMappable": "image",
+  "audience": [
+    "public"
+  ],
+  "template": "templates/echarts/line-race.json",
+  "preview": "previews/line-race.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=line-race",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'line-race' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

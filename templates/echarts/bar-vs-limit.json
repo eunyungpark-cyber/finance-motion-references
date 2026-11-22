@@ -1,0 +1,57 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value"
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "axisLabel": {
+      "overflow": "break",
+      "width": 200
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "encode": {
+        "y": "label",
+        "x": "limit"
+      },
+      "itemStyle": {
+        "opacity": 0.15
+      },
+      "barGap": "-100%",
+      "silent": true
+    },
+    {
+      "type": "bar",
+      "encode": {
+        "y": "label",
+        "x": "used"
+      },
+      "label": {
+        "show": true,
+        "position": "right"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "limit",
+      "used"
+    ]
+  }
+}

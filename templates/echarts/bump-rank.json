@@ -1,0 +1,44 @@
+{
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "category",
+    "splitLine": {
+      "show": true
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "inverse": true,
+    "min": 1,
+    "interval": 1
+  },
+  "series": {
+    "$seriesPerEntity": {
+      "type": "line",
+      "symbolSize": 14,
+      "endLabel": {
+        "show": true,
+        "formatter": "{a}"
+      },
+      "smooth": true
+    }
+  },
+  "dataset": {
+    "source": "$DATA"
+  },
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "entity",
+      "rank"
+    ]
+  }
+}

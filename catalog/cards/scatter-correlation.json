@@ -1,0 +1,45 @@
+{
+  "id": "scatter-correlation",
+  "kind": "chart",
+  "name": "Scatter",
+  "nameKo": "산점도(두 지표 관계)",
+  "relation": "correlation",
+  "financeUse": [
+    "거래처별 거래액 vs 결제 기일",
+    "계좌별 잔액 vs 이자율"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 2,
+      "max": 3
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 5,
+      "max": 500
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 12,
+    "allowNegative": true,
+    "minPoints": 5
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report"
+  ],
+  "template": "templates/echarts/scatter-correlation.json",
+  "preview": "previews/scatter-correlation.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=scatter-simple",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'scatter-simple' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

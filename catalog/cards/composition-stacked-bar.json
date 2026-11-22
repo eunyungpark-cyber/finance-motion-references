@@ -1,5 +1,6 @@
 {
   "id": "composition-stacked-bar",
+  "kind": "chart",
   "name": "Composition over time",
   "nameKo": "기간별 구성(누적 막대)",
   "relation": "part-to-whole",
@@ -34,7 +35,7 @@
     "public"
   ],
   "template": "templates/echarts/composition-stacked-bar.json",
-  "preview": null,
+  "preview": "previews/composition-stacked-bar.svg",
   "source": {
     "kind": "original"
   },

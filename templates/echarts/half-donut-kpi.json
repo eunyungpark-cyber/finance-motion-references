@@ -1,0 +1,30 @@
+{
+  "series": [
+    {
+      "type": "pie",
+      "radius": [
+        "55%",
+        "80%"
+      ],
+      "center": [
+        "50%",
+        "70%"
+      ],
+      "startAngle": 180,
+      "endAngle": 360,
+      "data": "$DATA",
+      "label": {
+        "formatter": "{b}\n{d}%"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "amount"
+    ],
+    "format": "nameValue"
+  }
+}

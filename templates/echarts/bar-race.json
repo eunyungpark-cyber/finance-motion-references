@@ -1,0 +1,45 @@
+{
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "max": "dataMax"
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "animationDuration": 300,
+    "animationDurationUpdate": 300
+  },
+  "series": [
+    {
+      "realtimeSort": true,
+      "type": "bar",
+      "label": {
+        "show": true,
+        "position": "right",
+        "valueAnimation": true
+      },
+      "encode": {
+        "x": "value",
+        "y": "label"
+      }
+    }
+  ],
+  "animationDurationUpdate": 1000,
+  "animationEasingUpdate": "linear",
+  "_binding": {
+    "columns": [
+      "label",
+      "value"
+    ],
+    "frames": "period 열이 있으면 스튜디오가 기간별로 setOption을 반복해 애니메이션"
+  },
+  "dataset": {
+    "source": "$DATA"
+  }
+}

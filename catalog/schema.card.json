@@ -3,57 +3,235 @@
   "$id": "finance-motion-references/card",
   "title": "Reference Card",
   "type": "object",
-  "required": ["id", "name", "relation", "dataShape", "constraints", "motion", "pptxMappable", "audience", "template", "source", "license"],
+  "required": [
+    "id",
+    "kind",
+    "name",
+    "relation",
+    "dataShape",
+    "constraints",
+    "motion",
+    "pptxMappable",
+    "audience",
+    "template",
+    "source",
+    "license"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
-    "name": { "type": "string", "minLength": 2 },
-    "nameKo": { "type": "string" },
-    "relation": {
-      "enum": ["deviation", "correlation", "ranking", "distribution", "change-over-time", "magnitude", "part-to-whole", "spatial", "flow"]
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
     },
-    "financeUse": { "type": "array", "items": { "type": "string" } },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "nameKo": {
+      "type": "string"
+    },
+    "relation": {
+      "enum": [
+        "deviation",
+        "correlation",
+        "ranking",
+        "distribution",
+        "change-over-time",
+        "magnitude",
+        "part-to-whole",
+        "spatial",
+        "flow",
+        "composite"
+      ]
+    },
+    "financeUse": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "dataShape": {
       "type": "object",
-      "required": ["dimensions", "measures", "timeSeries"],
+      "required": [
+        "dimensions",
+        "measures",
+        "timeSeries"
+      ],
       "additionalProperties": false,
       "properties": {
-        "dimensions": { "type": "integer", "minimum": 0, "maximum": 3 },
-        "measures": { "type": "object", "required": ["min", "max"], "properties": { "min": { "type": "integer", "minimum": 1 }, "max": { "type": "integer", "minimum": 1 } } },
-        "timeSeries": { "type": "boolean" },
-        "categories": { "type": "object", "properties": { "min": { "type": "integer" }, "max": { "type": "integer" } } }
+        "dimensions": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "measures": {
+          "type": "object",
+          "required": [
+            "min",
+            "max"
+          ],
+          "properties": {
+            "min": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "timeSeries": {
+          "type": "boolean"
+        },
+        "categories": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": "integer"
+            },
+            "max": {
+              "type": "integer"
+            }
+          }
+        }
       }
     },
     "constraints": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "labelMaxChars": { "type": ["integer", "null"] },
-        "allowNegative": { "type": "boolean" },
-        "minPoints": { "type": "integer", "minimum": 1 },
-        "needsTotal": { "type": "boolean" }
+        "labelMaxChars": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "allowNegative": {
+          "type": "boolean"
+        },
+        "minPoints": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "needsTotal": {
+          "type": "boolean"
+        }
       }
     },
     "motion": {
       "type": "array",
-      "items": { "enum": ["reveal.sequence", "chart.draw", "number.countUp", "emphasis.highlight", "flow.particles"] },
+      "items": {
+        "enum": [
+          "reveal.sequence",
+          "chart.draw",
+          "number.countUp",
+          "emphasis.highlight",
+          "flow.particles"
+        ]
+      },
       "minItems": 1
     },
-    "pptxMappable": { "enum": ["native", "approx", "image"] },
-    "audience": { "type": "array", "items": { "enum": ["report", "public", "external"] }, "minItems": 1 },
-    "template": { "type": "string", "pattern": "^templates/echarts/[a-z0-9-]+\\.json$" },
-    "preview": { "type": ["string", "null"] },
+    "pptxMappable": {
+      "enum": [
+        "native",
+        "approx",
+        "image"
+      ]
+    },
+    "audience": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "report",
+          "public",
+          "external"
+        ]
+      },
+      "minItems": 1
+    },
+    "template": {
+      "type": "string",
+      "pattern": "^templates/(echarts|layouts)/[a-z0-9-]+\\.json$"
+    },
+    "preview": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "source": {
       "type": "object",
-      "required": ["kind"],
+      "required": [
+        "kind"
+      ],
       "properties": {
-        "kind": { "enum": ["original", "upstream"] },
-        "sourceId": { "type": "string" },
-        "url": { "type": "string" },
-        "commit": { "type": ["string", "null"] }
+        "kind": {
+          "enum": [
+            "original",
+            "upstream",
+            "pattern"
+          ]
+        },
+        "sourceId": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "commit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
-    "license": { "type": "string" },
-    "notes": { "type": "string" }
+    "license": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "chart",
+        "layout"
+      ],
+      "description": "chart=차트 1개, layout=장표 전체 배치(슬롯 구성)"
+    },
+    "inspiredBy": {
+      "type": "array",
+      "description": "패턴 카드가 참고한 공개 자료 링크(원본 파일·이미지·문구는 저장하지 않음)",
+      "items": {
+        "type": "object",
+        "required": [
+          "org",
+          "title",
+          "url"
+        ],
+        "properties": {
+          "org": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "accessed": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "slideTypes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "layout 카드가 맞는 장표 유형(현황/추이/구성/비교/프로세스/표/요약)"
+    }
   }
 }

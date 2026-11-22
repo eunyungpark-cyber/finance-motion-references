@@ -1,0 +1,46 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value",
+    "name": "$PARAM:X_NAME",
+    "scale": true
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "$PARAM:Y_NAME",
+    "scale": true
+  },
+  "series": [
+    {
+      "type": "scatter",
+      "encode": {
+        "x": "x",
+        "y": "y",
+        "tooltip": [
+          "label",
+          "x",
+          "y"
+        ]
+      },
+      "symbolSize": 10
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "x",
+      "y"
+    ]
+  }
+}

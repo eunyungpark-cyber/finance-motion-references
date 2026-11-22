@@ -1,0 +1,85 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 450">
+<rect width="800" height="450" x="0" y="0" fill="none"></rect>
+<path d="M76.2 390.5L736 390.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 340.5L736 340.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 290.5L736 290.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 240.5L736 240.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 190.5L736 190.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 140.5L736 140.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 90.5L736 90.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 40.5L736 40.5" fill="none" pointer-events="visible" stroke="#E0E6F1" class="zr33-cls-242"></path>
+<path d="M76.2 390.5L736 390.5" fill="none" pointer-events="visible" stroke="#6E7079" stroke-linecap="round" class="zr33-cls-242"></path>
+<path d="M76.5 390L76.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr33-cls-242"></path>
+<path d="M186.5 390L186.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr33-cls-242"></path>
+<path d="M296.5 390L296.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr33-cls-242"></path>
+<path d="M406.5 390L406.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr33-cls-242"></path>
+<path d="M516.5 390L516.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr33-cls-242"></path>
+<path d="M626.5 390L626.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr33-cls-242"></path>
+<path d="M736.5 390L736.5 395" fill="none" pointer-events="visible" stroke="#6E7079" class="zr33-cls-242"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 390)" fill="#6E7079">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 340)" fill="#6E7079">100</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 290)" fill="#6E7079">200</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 240)" fill="#6E7079">300</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 190)" fill="#6E7079">400</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 140)" fill="#6E7079">500</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 90)" fill="#6E7079">600</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" transform="translate(68.16 40)" fill="#6E7079">700</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(131.1467 398)" fill="#6E7079">예산</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" y="6" transform="translate(241.12 398)" fill="#6E7079">매출 증가</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" y="6" transform="translate(351.0933 398)" fill="#6E7079">원가 상승</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" xml:space="preserve" y="6" transform="translate(461.0667 398)" fill="#6E7079">환율 효과</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(571.04 398)" fill="#6E7079">판관비</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(681.0133 398)" fill="#6E7079">실적</text>
+<path d="M93.2 390l75.9 0l0 0l-75.9 0Z" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr33-cls-242"></path>
+<path d="M203.2 390l75.9 0l0 -250l-75.9 0Z" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr33-cls-242"></path>
+<path d="M313.2 390l75.9 0l0 -270l-75.9 0Z" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr33-cls-242"></path>
+<path d="M423.1 390l75.9 0l0 -270l-75.9 0Z" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr33-cls-242"></path>
+<path d="M533.1 390l75.9 0l0 -265l-75.9 0Z" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr33-cls-242"></path>
+<path d="M643.1 390l75.9 0l0 0l-75.9 0Z" fill="none" pointer-events="visible" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr33-cls-242"></path>
+<path d="M203.2 140l75.9 0l0 -60l-75.9 0Z" fill="#2E6F9E" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr33-cls-243"></path>
+<path d="M423.1 120l75.9 0l0 -17.5l-75.9 0Z" fill="#2E6F9E" ecmeta_series_index="1" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr33-cls-243"></path>
+<path d="M313.2 120l75.9 0l0 -40l-75.9 0Z" fill="#C8553D" ecmeta_series_index="2" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr33-cls-244"></path>
+<path d="M533.1 125l75.9 0l0 -22.5l-75.9 0Z" fill="#C8553D" ecmeta_series_index="2" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr33-cls-244"></path>
+<path d="M93.2 390l75.9 0l0 -250l-75.9 0Z" fill="#7A8B99" ecmeta_series_index="3" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr33-cls-245"></path>
+<path d="M643.1 390l75.9 0l0 -265l-75.9 0Z" fill="#7A8B99" ecmeta_series_index="3" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr33-cls-245"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="-6" transform="translate(241.12 75)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">120</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="-6" transform="translate(461.0667 97.5)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">35</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(351.0933 125)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">-80</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="6" transform="translate(571.04 130)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">-45</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="-6" transform="translate(131.1467 135)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">500</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" y="-6" transform="translate(681.0133 120)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">530</text>
+<path d="M-5 -5l192 0l0 24l-192 0Z" transform="translate(309 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0" class="zr33-cls-242"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(309 5)" fill="#2E6F9E" ecmeta_series_index="1" ecmeta_data_index="0" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr33-cls-242"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" x="30" y="7" transform="translate(309 5)" fill="#333">증가</text>
+<path d="M0 0l54 0l0 14l-54 0Z" transform="translate(309 5)" fill="none" pointer-events="visible" ecmeta_series_index="1" ecmeta_data_index="0" ecmeta_ssr_type="legend" class="zr33-cls-246"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(373 5)" fill="#C8553D" ecmeta_series_index="2" ecmeta_data_index="1" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr33-cls-242"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" x="30" y="7" transform="translate(373 5)" fill="#333">감소</text>
+<path d="M0 0l54 0l0 14l-54 0Z" transform="translate(373 5)" fill="none" pointer-events="visible" ecmeta_series_index="2" ecmeta_data_index="1" ecmeta_ssr_type="legend" class="zr33-cls-246"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(437 5)" fill="#7A8B99" ecmeta_series_index="3" ecmeta_data_index="2" ecmeta_ssr_type="legend" ecmeta_silent="true" class="zr33-cls-242"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Pretendard, 'Noto Sans KR', sans-serif;" x="30" y="7" transform="translate(437 5)" fill="#333">합계</text>
+<path d="M0 0l54 0l0 14l-54 0Z" transform="translate(437 5)" fill="none" pointer-events="visible" ecmeta_series_index="3" ecmeta_data_index="2" ecmeta_ssr_type="legend" class="zr33-cls-246"></path>
+<style ><![CDATA[
+.zr33-cls-242:hover {
+pointer-events:none;
+}
+.zr33-cls-243:hover {
+cursor:pointer;
+fill:rgba(50,122,173,1);
+}
+.zr33-cls-244:hover {
+cursor:pointer;
+fill:rgba(220,93,67,1);
+}
+.zr33-cls-245:hover {
+cursor:pointer;
+fill:rgba(134,152,168,1);
+}
+.zr33-cls-246:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+
+]]>
+
+</style>
+</svg>

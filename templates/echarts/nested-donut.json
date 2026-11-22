@@ -1,0 +1,38 @@
+{
+  "series": [
+    {
+      "type": "pie",
+      "radius": [
+        0,
+        "34%"
+      ],
+      "label": {
+        "position": "inner"
+      },
+      "data": "$PARAM:LEVEL1"
+    },
+    {
+      "type": "pie",
+      "radius": [
+        "46%",
+        "66%"
+      ],
+      "data": "$DATA",
+      "label": {
+        "formatter": "{b}\n{d}%"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "amount"
+    ],
+    "format": "nameValue",
+    "params": [
+      "LEVEL1: 원본에 있는 대분류 합계 [{name,value}] — 코드가 합산하지 않음"
+    ]
+  }
+}

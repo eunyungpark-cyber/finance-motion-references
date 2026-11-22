@@ -1,0 +1,48 @@
+{
+  "id": "bar-vs-limit",
+  "kind": "chart",
+  "name": "Bar vs limit (background)",
+  "nameKo": "한도 대비 사용(배경 막대)",
+  "relation": "magnitude",
+  "financeUse": [
+    "은행별 한도 대비 사용액",
+    "예산 대비 집행"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 2,
+      "max": 2
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 1,
+      "max": 12
+    }
+  },
+  "constraints": {
+    "labelMaxChars": null,
+    "allowNegative": false,
+    "minPoints": 1
+  },
+  "motion": [
+    "chart.draw",
+    "number.countUp"
+  ],
+  "pptxMappable": "approx",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/echarts/bar-vs-limit.json",
+  "preview": "previews/bar-vs-limit.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=bar-background",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'bar-background' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

@@ -1,0 +1,51 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value",
+    "position": "top",
+    "splitLine": {
+      "lineStyle": {
+        "type": "dashed"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "axisLabel": {
+      "overflow": "break",
+      "width": 200
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "encode": {
+        "y": "label",
+        "x": "delta"
+      },
+      "label": {
+        "show": true,
+        "position": "right"
+      },
+      "$colorBySign": true
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "delta"
+    ]
+  }
+}

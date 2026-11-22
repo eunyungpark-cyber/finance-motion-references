@@ -17,7 +17,12 @@
   "yAxis": {
     "type": "value"
   },
-  "series": "$SERIES_PER_MEASURE(type=bar, stack=total)",
+  "series": {
+    "$seriesPerMeasure": {
+      "type": "bar",
+      "stack": "total"
+    }
+  },
   "animationDuration": 900,
   "animationEasing": "cubicOut",
   "_binding": {

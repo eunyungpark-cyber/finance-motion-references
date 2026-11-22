@@ -1,0 +1,30 @@
+{
+  "visualMap": {
+    "orient": "horizontal",
+    "left": "center",
+    "bottom": 0
+  },
+  "calendar": {
+    "range": "$PARAM:RANGE",
+    "cellSize": [
+      "auto",
+      18
+    ]
+  },
+  "series": [
+    {
+      "type": "heatmap",
+      "coordinateSystem": "calendar",
+      "data": "$DATA"
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "date",
+      "value"
+    ],
+    "format": "pairs"
+  }
+}

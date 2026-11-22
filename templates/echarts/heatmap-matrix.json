@@ -1,0 +1,52 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "category",
+    "splitArea": {
+      "show": true
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "splitArea": {
+      "show": true
+    }
+  },
+  "visualMap": {
+    "calculable": false,
+    "orient": "horizontal",
+    "left": "center",
+    "bottom": 0
+  },
+  "series": [
+    {
+      "type": "heatmap",
+      "encode": {
+        "x": "x",
+        "y": "y",
+        "value": "value"
+      },
+      "label": {
+        "show": true
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "x",
+      "y",
+      "value"
+    ]
+  }
+}

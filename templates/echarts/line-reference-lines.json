@@ -1,0 +1,47 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "type": "category",
+    "boundaryGap": false
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "type": "line",
+      "encode": {
+        "x": "period",
+        "y": "value"
+      },
+      "markLine": {
+        "symbol": "none",
+        "data": "$PARAM:REFERENCE_LINES",
+        "label": {
+          "position": "insideEndTop",
+          "formatter": "{b} {c}"
+        }
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "value"
+    ]
+  }
+}

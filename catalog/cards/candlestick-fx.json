@@ -1,0 +1,44 @@
+{
+  "id": "candlestick-fx",
+  "kind": "chart",
+  "name": "Candlestick (FX/price)",
+  "nameKo": "캔들(환율·가격 OHLC)",
+  "relation": "change-over-time",
+  "financeUse": [
+    "원달러 환율 일별 시가·고가·저가·종가"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 4,
+      "max": 4
+    },
+    "timeSeries": true,
+    "categories": {
+      "min": 5,
+      "max": 250
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 10,
+    "allowNegative": false,
+    "minPoints": 5
+  },
+  "motion": [
+    "chart.draw"
+  ],
+  "pptxMappable": "image",
+  "audience": [
+    "report"
+  ],
+  "template": "templates/echarts/candlestick-fx.json",
+  "preview": "previews/candlestick-fx.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=candlestick-simple",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'candlestick-simple' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

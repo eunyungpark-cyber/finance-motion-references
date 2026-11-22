@@ -1,5 +1,6 @@
 {
   "id": "ranking-hbar",
+  "kind": "chart",
   "name": "Ranked horizontal bar",
   "nameKo": "항목 순위(가로 막대, 긴 라벨 허용)",
   "relation": "ranking",
@@ -35,7 +36,7 @@
     "external"
   ],
   "template": "templates/echarts/ranking-hbar.json",
-  "preview": null,
+  "preview": "previews/ranking-hbar.svg",
   "source": {
     "kind": "original"
   },

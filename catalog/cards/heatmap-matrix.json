@@ -1,0 +1,45 @@
+{
+  "id": "heatmap-matrix",
+  "kind": "chart",
+  "name": "Heatmap matrix",
+  "nameKo": "히트맵(만기×통화 등 2차원)",
+  "relation": "distribution",
+  "financeUse": [
+    "만기 구간×통화 잔액",
+    "요일×시간 입출금 건수"
+  ],
+  "dataShape": {
+    "dimensions": 2,
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 4,
+      "max": 200
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 10,
+    "allowNegative": true,
+    "minPoints": 4
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "image",
+  "audience": [
+    "report"
+  ],
+  "template": "templates/echarts/heatmap-matrix.json",
+  "preview": "previews/heatmap-matrix.svg",
+  "source": {
+    "kind": "upstream",
+    "sourceId": "echarts-examples",
+    "url": "https://echarts.apache.org/examples/en/editor.html?c=heatmap-cartesian",
+    "commit": "88ca004030e999073a15303e5fe32462b8fefae2"
+  },
+  "license": "Apache-2.0",
+  "notes": "apache/echarts-examples 'heatmap-cartesian' 예제의 구성을 재무용으로 재작성. 예제 데이터는 포함하지 않음."
+}

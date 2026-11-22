@@ -1,0 +1,52 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "type": "time",
+    "boundaryGap": false
+  },
+  "yAxis": {
+    "type": "value",
+    "boundaryGap": [
+      0,
+      "20%"
+    ]
+  },
+  "dataZoom": [
+    {
+      "type": "inside"
+    }
+  ],
+  "series": [
+    {
+      "type": "line",
+      "encode": {
+        "x": "date",
+        "y": "value"
+      },
+      "symbol": "none",
+      "areaStyle": {
+        "opacity": 0.2
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "date",
+      "value"
+    ]
+  }
+}

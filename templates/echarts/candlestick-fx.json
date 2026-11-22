@@ -1,0 +1,44 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 64,
+    "top": 40,
+    "bottom": 40,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value",
+    "scale": true
+  },
+  "series": [
+    {
+      "type": "candlestick",
+      "encode": {
+        "x": "date",
+        "y": [
+          "open",
+          "close",
+          "low",
+          "high"
+        ]
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "date",
+      "open",
+      "close",
+      "low",
+      "high"
+    ]
+  }
+}
