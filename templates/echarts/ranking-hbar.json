@@ -1,0 +1,45 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 8,
+    "right": 48,
+    "top": 16,
+    "bottom": 16,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value"
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "axisLabel": {
+      "overflow": "break",
+      "width": 220
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "encode": {
+        "y": "label",
+        "x": "amount"
+      },
+      "label": {
+        "show": true,
+        "position": "right"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "amount"
+    ],
+    "note": "정렬은 원본 순서 유지가 기본, 사용자가 요청할 때만 값 기준 정렬"
+  }
+}

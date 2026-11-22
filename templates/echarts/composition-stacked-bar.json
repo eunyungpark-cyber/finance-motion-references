@@ -1,0 +1,31 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "legend": {
+    "top": 0
+  },
+  "grid": {
+    "left": 48,
+    "right": 24,
+    "top": 40,
+    "bottom": 40
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": "$SERIES_PER_MEASURE(type=bar, stack=total)",
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "<measure1>",
+      "<measure2>",
+      "..."
+    ]
+  }
+}

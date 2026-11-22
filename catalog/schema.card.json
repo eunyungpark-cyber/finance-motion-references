@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "finance-motion-references/card",
+  "title": "Reference Card",
+  "type": "object",
+  "required": ["id", "name", "relation", "dataShape", "constraints", "motion", "pptxMappable", "audience", "template", "source", "license"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 2 },
+    "nameKo": { "type": "string" },
+    "relation": {
+      "enum": ["deviation", "correlation", "ranking", "distribution", "change-over-time", "magnitude", "part-to-whole", "spatial", "flow"]
+    },
+    "financeUse": { "type": "array", "items": { "type": "string" } },
+    "dataShape": {
+      "type": "object",
+      "required": ["dimensions", "measures", "timeSeries"],
+      "additionalProperties": false,
+      "properties": {
+        "dimensions": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "measures": { "type": "object", "required": ["min", "max"], "properties": { "min": { "type": "integer", "minimum": 1 }, "max": { "type": "integer", "minimum": 1 } } },
+        "timeSeries": { "type": "boolean" },
+        "categories": { "type": "object", "properties": { "min": { "type": "integer" }, "max": { "type": "integer" } } }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "labelMaxChars": { "type": ["integer", "null"] },
+        "allowNegative": { "type": "boolean" },
+        "minPoints": { "type": "integer", "minimum": 1 },
+        "needsTotal": { "type": "boolean" }
+      }
+    },
+    "motion": {
+      "type": "array",
+      "items": { "enum": ["reveal.sequence", "chart.draw", "number.countUp", "emphasis.highlight", "flow.particles"] },
+      "minItems": 1
+    },
+    "pptxMappable": { "enum": ["native", "approx", "image"] },
+    "audience": { "type": "array", "items": { "enum": ["report", "public", "external"] }, "minItems": 1 },
+    "template": { "type": "string", "pattern": "^templates/echarts/[a-z0-9-]+\\.json$" },
+    "preview": { "type": ["string", "null"] },
+    "source": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": { "enum": ["original", "upstream"] },
+        "sourceId": { "type": "string" },
+        "url": { "type": "string" },
+        "commit": { "type": ["string", "null"] }
+      }
+    },
+    "license": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

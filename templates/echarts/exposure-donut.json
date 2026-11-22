@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "legend": {
+    "orient": "vertical",
+    "right": 0,
+    "top": "middle"
+  },
+  "series": [
+    {
+      "type": "pie",
+      "radius": [
+        "48%",
+        "72%"
+      ],
+      "center": [
+        "40%",
+        "50%"
+      ],
+      "encode": {
+        "itemName": "label",
+        "value": "amount"
+      },
+      "label": {
+        "formatter": "{b}\n{d}%"
+      },
+      "animationType": "expansion"
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "amount"
+    ]
+  }
+}

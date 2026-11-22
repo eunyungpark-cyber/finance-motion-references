@@ -1,0 +1,52 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 24,
+    "top": 32,
+    "bottom": 40
+  },
+  "xAxis": {
+    "type": "category",
+    "boundaryGap": false
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "type": "line",
+      "encode": {
+        "x": "period",
+        "y": "actual"
+      },
+      "smooth": false,
+      "symbolSize": 6,
+      "endLabel": {
+        "show": true
+      },
+      "markLine": {
+        "symbol": "none",
+        "data": [
+          {
+            "yAxis": "$TARGET",
+            "name": "목표"
+          }
+        ]
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "actual"
+    ],
+    "params": [
+      "TARGET: 원본에 목표값이 있을 때만, 없으면 markLine 제거"
+    ]
+  }
+}

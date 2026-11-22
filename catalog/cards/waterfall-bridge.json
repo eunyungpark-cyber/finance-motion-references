@@ -1,0 +1,44 @@
+{
+  "id": "waterfall-bridge",
+  "name": "Bridge (waterfall)",
+  "nameKo": "증감 브리지(워터폴)",
+  "relation": "deviation",
+  "financeUse": [
+    "기초→기말 현금 증감",
+    "예산 대비 실적 차이 요인"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 3,
+      "max": 12
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 18,
+    "allowNegative": true,
+    "minPoints": 3,
+    "needsTotal": true
+  },
+  "motion": [
+    "reveal.sequence",
+    "chart.draw"
+  ],
+  "pptxMappable": "approx",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/echarts/waterfall-bridge.json",
+  "preview": null,
+  "source": {
+    "kind": "original"
+  },
+  "license": "MIT",
+  "notes": "시드 카드(직접 작성). 값은 $DATA 자리에 코드가 원본 근거로 채움."
+}

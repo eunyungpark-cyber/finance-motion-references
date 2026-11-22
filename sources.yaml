@@ -1,0 +1,30 @@
+# 상류(upstream) 레퍼런스 출처 목록
+# 수집 스크립트(reference-harvest)는 여기 적힌 저장소만 읽는다.
+# commit 은 수집 시점에 고정한다(재현성). license 가 허용 목록에 없으면 수집하지 않는다.
+license_allowlist: [MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, CC0-1.0]
+
+sources:
+  - id: echarts-examples
+    repo: https://github.com/apache/echarts-examples
+    license: Apache-2.0
+    commit: null          # 1차 수집 때 고정
+    scope: "public/examples/ts/*.ts 중 bar·line·pie·waterfall·sankey·treemap·gauge 계열"
+  - id: echarts
+    repo: https://github.com/apache/echarts
+    license: Apache-2.0
+    commit: null
+    scope: "dist/echarts.min.js (vendor 동봉용)"
+  - id: vega-lite-examples
+    repo: https://github.com/vega/vega-lite
+    license: BSD-3-Clause
+    commit: null
+    scope: "examples/specs/*.vl.json — 관계 분류·데이터 모양 참고용(렌더 엔진은 ECharts)"
+
+# 분류 체계 참고(코드·자산을 복제하지 않고 개념만 사용)
+taxonomy_refs:
+  - name: FT Visual Vocabulary
+    url: https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary
+    use: "관계 유형 9종(deviation, correlation, ranking, distribution, change-over-time, magnitude, part-to-whole, spatial, flow) 이름만 사용"
+  - name: IBCS
+    url: https://www.ibcs.com/
+    use: "재무 보고 표기 원칙(실적/계획/전망 구분, 증감 표시) 참고"

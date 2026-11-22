@@ -1,0 +1,44 @@
+{
+  "id": "trend-line-target",
+  "name": "Trend vs target",
+  "nameKo": "추이 + 목표선",
+  "relation": "change-over-time",
+  "financeUse": [
+    "가용현금 추이",
+    "유동성 비율 추이"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "timeSeries": true,
+    "categories": {
+      "min": 4,
+      "max": 36
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 10,
+    "allowNegative": true,
+    "minPoints": 4
+  },
+  "motion": [
+    "chart.draw",
+    "number.countUp"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/echarts/trend-line-target.json",
+  "preview": null,
+  "source": {
+    "kind": "original"
+  },
+  "license": "MIT",
+  "notes": "시드 카드(직접 작성). 값은 $DATA 자리에 코드가 원본 근거로 채움."
+}

@@ -1,0 +1,24 @@
+name: release
+on:
+  push:
+    tags: ['references-*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/validate.mjs
+      - run: REF_VERSION=${GITHUB_REF_NAME} node scripts/build-index.mjs
+      - run: |
+          zip -r ${GITHUB_REF_NAME}.zip catalog templates previews vendor sources.yaml LICENSE
+          sha256sum ${GITHUB_REF_NAME}.zip > ${GITHUB_REF_NAME}.zip.sha256
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ github.ref_name }}.zip
+            ${{ github.ref_name }}.zip.sha256

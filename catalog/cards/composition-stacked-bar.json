@@ -1,0 +1,43 @@
+{
+  "id": "composition-stacked-bar",
+  "name": "Composition over time",
+  "nameKo": "기간별 구성(누적 막대)",
+  "relation": "part-to-whole",
+  "financeUse": [
+    "통화별 예금 잔액 추이",
+    "은행별 차입 구성"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 2,
+      "max": 6
+    },
+    "timeSeries": true,
+    "categories": {
+      "min": 2,
+      "max": 12
+    }
+  },
+  "constraints": {
+    "labelMaxChars": 10,
+    "allowNegative": false,
+    "minPoints": 2
+  },
+  "motion": [
+    "reveal.sequence",
+    "chart.draw"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public"
+  ],
+  "template": "templates/echarts/composition-stacked-bar.json",
+  "preview": null,
+  "source": {
+    "kind": "original"
+  },
+  "license": "MIT",
+  "notes": "시드 카드(직접 작성). 값은 $DATA 자리에 코드가 원본 근거로 채움."
+}

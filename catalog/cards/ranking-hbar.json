@@ -1,0 +1,44 @@
+{
+  "id": "ranking-hbar",
+  "name": "Ranked horizontal bar",
+  "nameKo": "항목 순위(가로 막대, 긴 라벨 허용)",
+  "relation": "ranking",
+  "financeUse": [
+    "거래처별 지급액",
+    "계정별 잔액"
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "timeSeries": false,
+    "categories": {
+      "min": 2,
+      "max": 15
+    }
+  },
+  "constraints": {
+    "labelMaxChars": null,
+    "allowNegative": true,
+    "minPoints": 2
+  },
+  "motion": [
+    "reveal.sequence",
+    "chart.draw"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/echarts/ranking-hbar.json",
+  "preview": null,
+  "source": {
+    "kind": "original"
+  },
+  "license": "MIT",
+  "notes": "시드 카드(직접 작성). 값은 $DATA 자리에 코드가 원본 근거로 채움."
+}

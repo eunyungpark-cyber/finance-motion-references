@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 24,
+    "top": 32,
+    "bottom": 40
+  },
+  "xAxis": {
+    "type": "category"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "type": "bar",
+      "encode": {
+        "x": "period",
+        "y": "amount"
+      },
+      "label": {
+        "show": true,
+        "position": "top"
+      },
+      "animationDelay": "$STAGGER"
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "period",
+      "amount",
+      "unit"
+    ]
+  }
+}

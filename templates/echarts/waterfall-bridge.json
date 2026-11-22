@@ -1,0 +1,59 @@
+{
+  "dataset": {
+    "source": "$DATA"
+  },
+  "grid": {
+    "left": 48,
+    "right": 24,
+    "top": 32,
+    "bottom": 48
+  },
+  "xAxis": {
+    "type": "category",
+    "axisLabel": {
+      "interval": 0,
+      "overflow": "break",
+      "width": 90
+    }
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "type": "bar",
+      "stack": "wf",
+      "encode": {
+        "x": 0,
+        "y": "base"
+      },
+      "itemStyle": {
+        "color": "transparent"
+      },
+      "silent": true
+    },
+    {
+      "type": "bar",
+      "stack": "wf",
+      "encode": {
+        "x": 0,
+        "y": "delta"
+      },
+      "label": {
+        "show": true,
+        "position": "top"
+      }
+    }
+  ],
+  "animationDuration": 900,
+  "animationEasing": "cubicOut",
+  "_binding": {
+    "columns": [
+      "label",
+      "base",
+      "delta",
+      "sign"
+    ],
+    "note": "base·delta는 코드가 원본 값에서 계산 없이 배치: 시작·종료는 base=0, 증감은 직전 누계를 base로. 누계 계산은 코드(결정론)만 수행"
+  }
+}
