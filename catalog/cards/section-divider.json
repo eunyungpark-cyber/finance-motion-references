@@ -1,0 +1,54 @@
+{
+  "id": "section-divider",
+  "kind": "layout",
+  "name": "Section divider",
+  "nameKo": "구간 표지",
+  "relation": "composite",
+  "slideTypes": [
+    "표지"
+  ],
+  "financeUse": [
+    "장 구분용 최소 표지(구간명·발표자). 덱 전체에 상단 탭(현재 구간 표시)을 함께 쓰면 길이가 긴 보고서에서 위치를 잃지 않음."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/layouts/section-divider.json",
+  "preview": "previews/section-divider.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    },
+    {
+      "org": "DBS Group",
+      "title": "3Q25 CFO presentation",
+      "url": "https://www.dbs.com/iwov-resources/images/investors/quarterly-financials/2025/3Q25_CFO_presentation.pdf",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

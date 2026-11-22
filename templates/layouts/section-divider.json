@@ -1,0 +1,36 @@
+{
+  "canvas": {
+    "w": 1600,
+    "h": 900
+  },
+  "slots": [
+    {
+      "id": "section",
+      "role": "headline",
+      "box": [
+        160,
+        360,
+        1280,
+        96
+      ],
+      "rules": {
+        "style": "구간명"
+      }
+    },
+    {
+      "id": "presenter",
+      "role": "label",
+      "box": [
+        160,
+        470,
+        1280,
+        40
+      ]
+    }
+  ],
+  "motionOrder": [
+    "section",
+    "presenter"
+  ],
+  "_note": "자체 작성 배치. 참고 자료의 이미지·문구·색·로고를 사용하지 않음."
+}

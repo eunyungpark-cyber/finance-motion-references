@@ -1,0 +1,122 @@
+{
+  "canvas": {
+    "w": 1600,
+    "h": 900
+  },
+  "slots": [
+    {
+      "id": "headline",
+      "role": "headline",
+      "box": [
+        64,
+        48,
+        1472,
+        72
+      ],
+      "rules": {
+        "style": "결론형 문장",
+        "maxChars": 40
+      }
+    },
+    {
+      "id": "subhead",
+      "role": "subhead",
+      "box": [
+        64,
+        120,
+        1472,
+        32
+      ],
+      "rules": {
+        "order": "지표, 범위, 기간"
+      }
+    },
+    {
+      "id": "chart",
+      "role": "chart",
+      "box": [
+        64,
+        176,
+        1000,
+        560
+      ],
+      "cards": [
+        "combo-bar-line",
+        "trend-line-target",
+        "grouped-bar"
+      ]
+    },
+    {
+      "id": "ratio-row",
+      "role": "table",
+      "box": [
+        64,
+        740,
+        1000,
+        48
+      ],
+      "rules": {
+        "alignTo": "chart.categories"
+      }
+    },
+    {
+      "id": "guidance",
+      "role": "callout",
+      "box": [
+        1104,
+        176,
+        432,
+        300
+      ],
+      "rules": {
+        "rows": [
+          "올해 가이던스",
+          "중기 목표"
+        ],
+        "status": [
+          "상회",
+          "범위 내",
+          "하회"
+        ]
+      }
+    },
+    {
+      "id": "commentary",
+      "role": "commentary",
+      "box": [
+        1104,
+        500,
+        432,
+        288
+      ],
+      "repeat": {
+        "max": 3
+      }
+    },
+    {
+      "id": "footnote",
+      "role": "footnote",
+      "box": [
+        64,
+        836,
+        1472,
+        40
+      ],
+      "rules": {
+        "contains": [
+          "출처",
+          "기준일",
+          "정의"
+        ],
+        "maxLines": 2
+      }
+    }
+  ],
+  "motionOrder": [
+    "headline",
+    "chart",
+    "guidance",
+    "commentary"
+  ],
+  "_note": "자체 작성 배치. 참고 자료의 이미지·문구·색·로고를 사용하지 않음."
+}

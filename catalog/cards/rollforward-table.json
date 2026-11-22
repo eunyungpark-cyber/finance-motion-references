@@ -1,0 +1,54 @@
+{
+  "id": "rollforward-table",
+  "kind": "layout",
+  "name": "Roll-forward (opening → closing)",
+  "nameKo": "잔액 증감표(기초→기말)",
+  "relation": "composite",
+  "slideTypes": [
+    "표",
+    "추이"
+  ],
+  "financeUse": [
+    "열=기간(전년 동기, 전분기, 당분기, 누계), 행=기초→증가→감소→기타→기말, 마지막 행에 핵심 비율 강조. 차입금·예금·충당금 증감에 적합."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/layouts/rollforward-table.json",
+  "preview": "previews/rollforward-table.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "DBS Group",
+      "title": "3Q25 CFO presentation",
+      "url": "https://www.dbs.com/iwov-resources/images/investors/quarterly-financials/2025/3Q25_CFO_presentation.pdf",
+      "accessed": "2026-11-22"
+    },
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

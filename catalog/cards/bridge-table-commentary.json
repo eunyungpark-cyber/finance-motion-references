@@ -1,0 +1,54 @@
+{
+  "id": "bridge-table-commentary",
+  "kind": "layout",
+  "name": "Bridge + line-item table + commentary",
+  "nameKo": "증감 브리지 + 항목 표 + 해설",
+  "relation": "composite",
+  "slideTypes": [
+    "비교",
+    "현황"
+  ],
+  "financeUse": [
+    "왼쪽에 기초→기말 브리지(증감 요인 색 구분, 요인별 % 배지), 오른쪽에 항목별 표(당기·증감률·'최대' 같은 태그), 아래에 해설 2~3줄."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/layouts/bridge-table-commentary.json",
+  "preview": "previews/bridge-table-commentary.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "DBS Group",
+      "title": "3Q25 CFO presentation",
+      "url": "https://www.dbs.com/iwov-resources/images/investors/quarterly-financials/2025/3Q25_CFO_presentation.pdf",
+      "accessed": "2026-11-22"
+    },
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

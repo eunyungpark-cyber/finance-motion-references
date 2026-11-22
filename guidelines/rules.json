@@ -1,0 +1,16 @@
+{
+  "_note": "fidelity-check가 렌더 결과에 적용하는 기계 검사 규칙. severity: block=안 제외, warn=경고만",
+  "rules": [
+    {"id": "bar-zero-baseline", "applies": ["bar"], "check": "valueAxis.min in [0, null] or series has negative", "severity": "block"},
+    {"id": "title-length", "applies": ["*"], "check": "headline.length <= 40 (ko) or 15 words (en)", "severity": "warn"},
+    {"id": "no-text-overlap", "applies": ["*"], "check": "text bounding boxes do not intersect", "severity": "block"},
+    {"id": "min-font-size", "applies": ["*"], "check": "rendered font >= 12px at 1600x900", "severity": "block"},
+    {"id": "no-label-truncation", "applies": ["*"], "check": "category labels are not cut with ellipsis", "severity": "block"},
+    {"id": "max-colors", "applies": ["*"], "check": "distinct series colors <= 6 (else group into 기타)", "severity": "warn"},
+    {"id": "consistent-entity-color", "applies": ["*"], "check": "same entity name -> same color across deck", "severity": "warn"},
+    {"id": "contrast", "applies": ["*"], "check": "text contrast ratio >= 4.5", "severity": "block"},
+    {"id": "source-line", "applies": ["*"], "check": "slide has source/기준일 footnote", "severity": "warn", "audienceOverride": {"external": "block"}},
+    {"id": "sign-preserved", "applies": ["deviation"], "check": "negative values keep '-' or '△' in labels", "severity": "block"},
+    {"id": "no-minor-gridlines", "applies": ["bar", "line"], "check": "minor split lines hidden", "severity": "warn"}
+  ]
+}

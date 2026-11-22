@@ -1,0 +1,48 @@
+{
+  "id": "kpi-vs-guidance",
+  "kind": "layout",
+  "name": "KPI vs guidance range",
+  "nameKo": "KPI + 가이던스 범위 표시",
+  "relation": "composite",
+  "slideTypes": [
+    "요약",
+    "비교"
+  ],
+  "financeUse": [
+    "KPI 타일마다 가이던스 범위 막대를 두고 실적 위치를 점으로 표시(범위 위·안·아래). 환율 효과는 보조 줄로 분리."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/layouts/kpi-vs-guidance.json",
+  "preview": "previews/kpi-vs-guidance.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "Booking Holdings",
+      "title": "Q3 2025 prepared remarks (results vs guidance)",
+      "url": "https://s25.q4cdn.com/383369491/files/doc_financials/2025/q3/Q3-25-Prepared-Remarks-for-Website.pdf",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

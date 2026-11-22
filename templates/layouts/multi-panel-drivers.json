@@ -1,0 +1,71 @@
+{
+  "canvas": {
+    "w": 1600,
+    "h": 900
+  },
+  "slots": [
+    {
+      "id": "headline",
+      "role": "headline",
+      "box": [
+        64,
+        48,
+        1472,
+        72
+      ],
+      "rules": {
+        "style": "결론형 문장",
+        "maxChars": 40
+      }
+    },
+    {
+      "id": "panel",
+      "role": "chart",
+      "box": [
+        64,
+        160,
+        1472,
+        640
+      ],
+      "repeat": {
+        "min": 2,
+        "max": 4,
+        "grid": [
+          2,
+          2
+        ]
+      },
+      "cards": [
+        "step-line-rate",
+        "grouped-bar",
+        "daily-balance-area"
+      ],
+      "rules": {
+        "sharedAxisWhenSameUnit": true
+      }
+    },
+    {
+      "id": "footnote",
+      "role": "footnote",
+      "box": [
+        64,
+        836,
+        1472,
+        40
+      ],
+      "rules": {
+        "contains": [
+          "출처",
+          "기준일",
+          "정의"
+        ],
+        "maxLines": 2
+      }
+    }
+  ],
+  "motionOrder": [
+    "headline",
+    "panel"
+  ],
+  "_note": "자체 작성 배치. 참고 자료의 이미지·문구·색·로고를 사용하지 않음."
+}

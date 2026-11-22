@@ -1,0 +1,49 @@
+{
+  "id": "three-theme-columns",
+  "kind": "layout",
+  "name": "Three theme columns",
+  "nameKo": "3개 주제 기둥",
+  "relation": "composite",
+  "slideTypes": [
+    "요약",
+    "프로세스"
+  ],
+  "financeUse": [
+    "주제 3개를 기둥으로. 기둥마다 굵은 소제목, 불릿 2~4개, 핵심 수치 하나(증감 포함)를 본문 안에 강조."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/layouts/three-theme-columns.json",
+  "preview": "previews/three-theme-columns.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

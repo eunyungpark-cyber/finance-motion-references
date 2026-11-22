@@ -1,0 +1,68 @@
+{
+  "canvas": {
+    "w": 1600,
+    "h": 900
+  },
+  "slots": [
+    {
+      "id": "headline",
+      "role": "headline",
+      "box": [
+        64,
+        48,
+        1472,
+        72
+      ],
+      "rules": {
+        "style": "결론형 문장",
+        "maxChars": 40
+      }
+    },
+    {
+      "id": "board",
+      "role": "table",
+      "box": [
+        64,
+        160,
+        1472,
+        640
+      ],
+      "rules": {
+        "columns": [
+          "과제",
+          "상태",
+          "목표 시점",
+          "비고"
+        ],
+        "statusChips": [
+          "완료",
+          "진행",
+          "준비"
+        ]
+      }
+    },
+    {
+      "id": "footnote",
+      "role": "footnote",
+      "box": [
+        64,
+        836,
+        1472,
+        40
+      ],
+      "rules": {
+        "contains": [
+          "출처",
+          "기준일",
+          "정의"
+        ],
+        "maxLines": 2
+      }
+    }
+  ],
+  "motionOrder": [
+    "headline",
+    "board"
+  ],
+  "_note": "자체 작성 배치. 참고 자료의 이미지·문구·색·로고를 사용하지 않음."
+}

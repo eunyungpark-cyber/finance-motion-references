@@ -1,0 +1,48 @@
+{
+  "id": "statement-chart-caption",
+  "kind": "layout",
+  "name": "Statement + chart + caption",
+  "nameKo": "결론 문장 + 차트 + 캡션",
+  "relation": "composite",
+  "slideTypes": [
+    "추이",
+    "현황"
+  ],
+  "financeUse": [
+    "결론을 말하는 짧은 제목 아래 차트 하나를 크게, 같은 분기를 연도별로 나란히(예: 3분기 3개년). 막대 위 값, 비율은 작은 글씨 행."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "public",
+    "external"
+  ],
+  "template": "templates/layouts/statement-chart-caption.json",
+  "preview": "previews/statement-chart-caption.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "Airbnb",
+      "title": "Q3 2025 Shareholder Letter",
+      "url": "https://s26.q4cdn.com/656283129/files/doc_financials/2025/q3/v2/Airbnb_Q3-2025-Shareholder-Letter.pdf",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

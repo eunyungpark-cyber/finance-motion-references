@@ -1,0 +1,70 @@
+{
+  "canvas": {
+    "w": 1600,
+    "h": 900
+  },
+  "slots": [
+    {
+      "id": "headline",
+      "role": "headline",
+      "box": [
+        64,
+        48,
+        1472,
+        72
+      ],
+      "rules": {
+        "style": "결론형 문장",
+        "maxChars": 40
+      }
+    },
+    {
+      "id": "col",
+      "role": "column",
+      "box": [
+        64,
+        176,
+        1472,
+        620
+      ],
+      "repeat": {
+        "min": 2,
+        "max": 4,
+        "grid": [
+          3,
+          1
+        ]
+      },
+      "rules": {
+        "parts": [
+          "subheading",
+          "bullets",
+          "inlineMetric"
+        ]
+      }
+    },
+    {
+      "id": "footnote",
+      "role": "footnote",
+      "box": [
+        64,
+        836,
+        1472,
+        40
+      ],
+      "rules": {
+        "contains": [
+          "출처",
+          "기준일",
+          "정의"
+        ],
+        "maxLines": 2
+      }
+    }
+  ],
+  "motionOrder": [
+    "headline",
+    "col"
+  ],
+  "_note": "자체 작성 배치. 참고 자료의 이미지·문구·색·로고를 사용하지 않음."
+}

@@ -1,0 +1,109 @@
+{
+  "canvas": {
+    "w": 1600,
+    "h": 900
+  },
+  "slots": [
+    {
+      "id": "headline",
+      "role": "headline",
+      "box": [
+        64,
+        48,
+        1472,
+        72
+      ],
+      "rules": {
+        "style": "결론형 문장",
+        "maxChars": 40
+      }
+    },
+    {
+      "id": "subhead",
+      "role": "subhead",
+      "box": [
+        64,
+        120,
+        1472,
+        32
+      ],
+      "rules": {
+        "order": "지표, 범위, 기간"
+      }
+    },
+    {
+      "id": "chart",
+      "role": "chart",
+      "box": [
+        64,
+        176,
+        920,
+        520
+      ],
+      "cards": [
+        "waterfall-bridge",
+        "waterfall-increase-decrease"
+      ]
+    },
+    {
+      "id": "table",
+      "role": "table",
+      "box": [
+        1016,
+        176,
+        520,
+        520
+      ],
+      "rules": {
+        "columns": [
+          "항목",
+          "당기",
+          "증감률",
+          "태그"
+        ],
+        "maxRows": 8
+      }
+    },
+    {
+      "id": "commentary",
+      "role": "commentary",
+      "box": [
+        64,
+        712,
+        1472,
+        112
+      ],
+      "repeat": {
+        "max": 3
+      },
+      "rules": {
+        "style": "불릿, 차트 해설"
+      }
+    },
+    {
+      "id": "footnote",
+      "role": "footnote",
+      "box": [
+        64,
+        836,
+        1472,
+        40
+      ],
+      "rules": {
+        "contains": [
+          "출처",
+          "기준일",
+          "정의"
+        ],
+        "maxLines": 2
+      }
+    }
+  ],
+  "motionOrder": [
+    "headline",
+    "chart",
+    "table",
+    "commentary"
+  ],
+  "_note": "자체 작성 배치. 참고 자료의 이미지·문구·색·로고를 사용하지 않음."
+}

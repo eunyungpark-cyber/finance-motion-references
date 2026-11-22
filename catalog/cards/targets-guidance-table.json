@@ -1,0 +1,54 @@
+{
+  "id": "targets-guidance-table",
+  "kind": "layout",
+  "name": "Targets & guidance",
+  "nameKo": "목표·가이던스 표",
+  "relation": "composite",
+  "slideTypes": [
+    "요약",
+    "표"
+  ],
+  "financeUse": [
+    "행=기간(올해, 중기, 장기 목표), 열=지표. 이번에 바뀐 항목은 '변경' 태그. 전망 관련 면책 문구를 각주로 고정."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/layouts/targets-guidance-table.json",
+  "preview": "previews/targets-guidance-table.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    },
+    {
+      "org": "Booking Holdings",
+      "title": "Q3 2025 prepared remarks (results vs guidance)",
+      "url": "https://s25.q4cdn.com/383369491/files/doc_financials/2025/q3/Q3-25-Prepared-Remarks-for-Website.pdf",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

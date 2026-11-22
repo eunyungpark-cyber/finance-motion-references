@@ -1,0 +1,54 @@
+{
+  "id": "segment-matrix",
+  "kind": "layout",
+  "name": "Segment matrix",
+  "nameKo": "부문별 매트릭스",
+  "relation": "composite",
+  "slideTypes": [
+    "표",
+    "비교"
+  ],
+  "financeUse": [
+    "열=부문(마지막 열은 본사·기타), 행=매출·이익·수익성 지표. 부문별 전년·전분기 증감률은 값 아래 작은 글씨로."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/layouts/segment-matrix.json",
+  "preview": "previews/segment-matrix.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    },
+    {
+      "org": "Trip.com Group",
+      "title": "Unaudited Q3 2025 results (segment YoY·QoQ)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1269238/000119312525285260/d17038dex991.htm",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "trend-with-guidance",
+  "kind": "layout",
+  "name": "Trend + guidance box",
+  "nameKo": "추이 + 가이던스(목표 범위) 상자",
+  "relation": "composite",
+  "slideTypes": [
+    "추이",
+    "비교"
+  ],
+  "financeUse": [
+    "분기 추이 막대 아래에 비율 행(예: 연환산 bp), 오른쪽에 가이던스 상자(올해 범위·중기 목표). 실적이 범위 위/아래인지 표시."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/layouts/trend-with-guidance.json",
+  "preview": "previews/trend-with-guidance.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    },
+    {
+      "org": "Booking Holdings",
+      "title": "Q3 2025 prepared remarks (results vs guidance)",
+      "url": "https://s25.q4cdn.com/383369491/files/doc_financials/2025/q3/Q3-25-Prepared-Remarks-for-Website.pdf",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "status-tracker",
+  "kind": "layout",
+  "name": "Initiative status tracker",
+  "nameKo": "과제 진행 현황판",
+  "relation": "composite",
+  "slideTypes": [
+    "프로세스",
+    "표"
+  ],
+  "financeUse": [
+    "상태별 열(발표·진행 중·준비)로 과제를 배치하고 목표 완료 시점 열을 둠. 자금팀 개선 과제·시스템 전환 현황에 적합."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public"
+  ],
+  "template": "templates/layouts/status-tracker.json",
+  "preview": "previews/status-tracker.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

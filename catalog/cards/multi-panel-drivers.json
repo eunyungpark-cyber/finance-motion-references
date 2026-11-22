@@ -1,0 +1,47 @@
+{
+  "id": "multi-panel-drivers",
+  "kind": "layout",
+  "name": "Multi-panel drivers",
+  "nameKo": "요인 패널(2×2)",
+  "relation": "composite",
+  "slideTypes": [
+    "추이",
+    "비교"
+  ],
+  "financeUse": [
+    "한 지표의 요인을 작은 패널 4개(작은 표·금리 선·평균 잔액 막대)로. 패널마다 소제목과 번호 각주."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report"
+  ],
+  "template": "templates/layouts/multi-panel-drivers.json",
+  "preview": "previews/multi-panel-drivers.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

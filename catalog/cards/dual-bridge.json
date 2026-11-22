@@ -1,0 +1,47 @@
+{
+  "id": "dual-bridge",
+  "kind": "layout",
+  "name": "Two bridges side by side",
+  "nameKo": "브리지 2개 나란히(예: 차입금·예금 증감)",
+  "relation": "composite",
+  "slideTypes": [
+    "비교"
+  ],
+  "financeUse": [
+    "같은 기간의 두 잔액 변동을 브리지 2개로 나란히, 위에 각 브리지의 전년 대비 %, 오른쪽 위에 비율 지표 하나(예: 부채비율) 강조."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "external"
+  ],
+  "template": "templates/layouts/dual-bridge.json",
+  "preview": "previews/dual-bridge.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

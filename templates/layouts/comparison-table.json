@@ -1,0 +1,95 @@
+{
+  "canvas": {
+    "w": 1600,
+    "h": 900
+  },
+  "slots": [
+    {
+      "id": "headline",
+      "role": "headline",
+      "box": [
+        64,
+        48,
+        1472,
+        72
+      ],
+      "rules": {
+        "style": "결론형 문장",
+        "maxChars": 40
+      }
+    },
+    {
+      "id": "subhead",
+      "role": "subhead",
+      "box": [
+        64,
+        120,
+        1472,
+        32
+      ],
+      "rules": {
+        "order": "지표, 범위, 기간"
+      }
+    },
+    {
+      "id": "table",
+      "role": "table",
+      "box": [
+        64,
+        176,
+        960,
+        640
+      ],
+      "rules": {
+        "columns": [
+          "지표",
+          "당기",
+          "전기",
+          "증감"
+        ],
+        "deltaBadge": true,
+        "maxRows": 12
+      }
+    },
+    {
+      "id": "commentary",
+      "role": "commentary",
+      "box": [
+        1064,
+        176,
+        472,
+        640
+      ],
+      "repeat": {
+        "max": 4
+      },
+      "rules": {
+        "groupedBy": "주제"
+      }
+    },
+    {
+      "id": "footnote",
+      "role": "footnote",
+      "box": [
+        64,
+        836,
+        1472,
+        40
+      ],
+      "rules": {
+        "contains": [
+          "출처",
+          "기준일",
+          "정의"
+        ],
+        "maxLines": 2
+      }
+    }
+  ],
+  "motionOrder": [
+    "headline",
+    "table",
+    "commentary"
+  ],
+  "_note": "자체 작성 배치. 참고 자료의 이미지·문구·색·로고를 사용하지 않음."
+}

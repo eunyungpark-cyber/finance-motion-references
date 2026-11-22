@@ -1,0 +1,55 @@
+{
+  "id": "comparison-table",
+  "kind": "layout",
+  "name": "Current vs prior table with deltas",
+  "nameKo": "당기·전기 비교표 + 증감",
+  "relation": "composite",
+  "slideTypes": [
+    "표",
+    "비교"
+  ],
+  "financeUse": [
+    "지표 | 당기 | 전기 | 증감(%) 4열 표. 증감은 부호·색 배지. 오른쪽에 주제별(손익·자산·자본) 해설 묶음."
+  ],
+  "dataShape": {
+    "dimensions": 1,
+    "measures": {
+      "min": 1,
+      "max": 12
+    },
+    "timeSeries": false
+  },
+  "constraints": {
+    "labelMaxChars": null
+  },
+  "motion": [
+    "reveal.sequence"
+  ],
+  "pptxMappable": "native",
+  "audience": [
+    "report",
+    "public",
+    "external"
+  ],
+  "template": "templates/layouts/comparison-table.json",
+  "preview": "previews/comparison-table.svg",
+  "source": {
+    "kind": "pattern"
+  },
+  "inspiredBy": [
+    {
+      "org": "Expedia Group",
+      "title": "Third Quarter 2025 Results (financial summary table)",
+      "url": "https://ir.expediagroup.com/news-and-events/news/news-details/2025/Expedia-Group-Reports-Third-Quarter-2025-Results/default.aspx",
+      "accessed": "2026-11-22"
+    },
+    {
+      "org": "HSBC Holdings",
+      "title": "2Q25 presentation to investors and analysts",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/group",
+      "accessed": "2026-11-22"
+    }
+  ],
+  "license": "MIT",
+  "notes": "공개 IR 자료에서 '구성 방식'만 관찰해 새로 그린 배치. 원본 파일·이미지·문구·수치·로고는 저장소에 없음."
+}

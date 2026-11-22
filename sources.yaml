@@ -2,6 +2,8 @@
 # 수집 스크립트(reference-harvest)는 여기 적힌 저장소만 읽는다.
 # commit 은 수집 시점에 고정한다(재현성). license 가 허용 목록에 없으면 수집하지 않는다.
 license_allowlist: [MIT, Apache-2.0, BSD-2-Clause, BSD-3-Clause, ISC, CC0-1.0]
+# 코드가 아닌 문서·규칙 요약에 한해 허용 (출처 표기 필수)
+doc_license_allowlist: [OGL-3.0, CC-BY-4.0, Public-Domain]
 
 sources:
   - id: echarts-examples
@@ -28,3 +30,43 @@ taxonomy_refs:
   - name: IBCS
     url: https://www.ibcs.com/
     use: "재무 보고 표기 원칙(실적/계획/전망 구분, 증감 표시) 참고"
+
+# 공공기관 자료 — 원칙 요약·레이아웃 참고 (guidelines/)
+public_sources:
+  - name: ONS Service Manual — Data visualisation
+    url: https://service-manual.ons.gov.uk/data-visualisation
+    license: OGL-3.0
+  - name: Federal Reserve Board
+    url: https://www.federalreserve.gov/
+    license: Public-Domain   # 별도 표시 없을 때. 출처 표기 요청
+  - name: World Bank Open Data
+    url: https://data.worldbank.org/
+    license: CC-BY-4.0       # 별도 표시 없을 때
+
+# 저작권 자료 — 원본 저장 금지. 레이아웃 패턴만 추출해 자체 템플릿으로 재작성하고 링크만 남김
+pattern_sources:
+  - org: DBS Group
+    title: "3Q25 CFO presentation"
+    url: https://www.dbs.com/iwov-resources/images/investors/quarterly-financials/2025/3Q25_CFO_presentation.pdf
+    accessed: 2026-11-22
+  - org: HSBC Holdings
+    title: "2Q25 presentation to investors and analysts"
+    url: https://www.hsbc.com/investors/results-and-announcements/all-reporting/group
+    accessed: 2026-11-22
+  - org: Expedia Group
+    title: "Third Quarter 2025 Results (financial summary table)"
+    url: https://ir.expediagroup.com/news-and-events/news/news-details/2025/Expedia-Group-Reports-Third-Quarter-2025-Results/default.aspx
+    accessed: 2026-11-22
+  - org: Airbnb
+    title: "Q3 2025 Shareholder Letter"
+    url: https://s26.q4cdn.com/656283129/files/doc_financials/2025/q3/v2/Airbnb_Q3-2025-Shareholder-Letter.pdf
+    accessed: 2026-11-22
+  - org: Booking Holdings
+    title: "Q3 2025 prepared remarks (results vs guidance)"
+    url: https://s25.q4cdn.com/383369491/files/doc_financials/2025/q3/Q3-25-Prepared-Remarks-for-Website.pdf
+    accessed: 2026-11-22
+  - org: Trip.com Group
+    title: "Unaudited Q3 2025 results (segment YoY·QoQ)"
+    url: https://www.sec.gov/Archives/edgar/data/1269238/000119312525285260/d17038dex991.htm
+    accessed: 2026-11-22
+
